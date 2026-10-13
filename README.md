@@ -2,11 +2,15 @@
 
 本仓库是非商业独立扩展，来源依次为 [sganggs 原始复刻](https://github.com/sganggs/Stronghold-Protocol) → [LongQianChen 20人分支](https://github.com/LongQianChen/Stronghold-Protocol/tree/feat/IncreasePlayerCapacity) → resilenceljp 娱乐扩展。上游当前基础版本0.2.4。
 
-娱乐、无尽、藏品、22格整备区与独立监视台源码请查看 [feat/entertainment-endless](https://github.com/resilenceljp/Stronghold-Protocol-20p/tree/feat/entertainment-endless)，扩展版本0.2.4-20p-fun.2。当前默认分支保留20人核心，仅增加来源说明与同步工作流。
+娱乐、无尽、藏品、22格整备区与独立监视台源码请查看 [feat/entertainment-endless](https://github.com/resilenceljp/Stronghold-Protocol-20p/tree/feat/entertainment-endless)，扩展版本0.2.5-20p-fun.5。当前默认分支保留20人核心，仅增加来源说明与同步工作流。
+
+已将最原版 v0.2.5 合并到娱乐开发分支，保留20p功能。无尽作为娱乐选项、全员续玩投票、满练度、控制台与监视台 UI 1.9 流量账本见该开发分支。默认分支继续保留20p核心。
 
 ## 同步原版20p
 
 在 Actions 打开「同步原版20p到独立分支」，点击 Run workflow；工作流也会每日检查。原样更新到 `upstream/20p` 并保留 `upstream20/v版本-SHA` 快照，娱乐分支不会自动覆盖。代码合并后才更新扩展的基础版本。
+
+新增最原版正式发布同步入口：Actions「同步最原版正式版到独立分支」，保存 `upstream/original` 与固定发布快照。分支、版本标签与实际合并来源见[分支记录](docs/BRANCHES.md)。
 
 以下保留来源分支原有说明与署名。
 
